@@ -42,7 +42,7 @@ const DesktopFeature = () => {
         {features.map((feature, featureIndex) => (
           <div
             key={feature.name}
-            className="relative rounded-2xl transition-colors hover:bg-tunkRed"
+            className="relative rounded-2xl transition-colors hover:bg-blue-500"
           >
             {featureIndex === selectedIndex && (
               <motion.div
